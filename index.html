@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+        <h2>Listen to our best singers -</h2>
+        <div class="songItemContainer">
+          <div class="songItem">
+           <img src="covers/kesariya.jpg" alt="1">
+           <span class="songName">Let Me Love You</span>
+           <span class="songlistplay"><span class="timestamp">1:01 <i id="0" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img src="covers/bairaagi.jfif" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">1:20 <i  id="1"  class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/bhoolbhulaiya.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">2:33 <i id="2" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/channamereya.jfif" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">2:07 <i id="3" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/darasal.jfif" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">2:57 <i id="4" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/humnashemein.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">0:55 <i id="5" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/haidilyemera.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">3:19 <i id="6" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/jaisemeratu.jfif" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">1:35 <i id="7" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/kesariya.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">2:56 <i id="8" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/kesariya.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">4:30 <i id="9" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/kesariya.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">1:44 <i id="10" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/kesariya.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">2:56 <i id="11" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+           <div class="songItem">
+            <img src="covers/kesariya.jpg" alt="1">
+            <span class="songName">Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">1:14 <i id="12" class="fa-solid songItemPlay fa-play-circle"></i></span></span>
+           </div>
+        </div>  
+    </div>
+        <div class="songbanner"></div>
+    </div>    
+
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" val="0" min="0" max="100">
+            <div class="icons">
+                <!--fontawesome icons-->
+                <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+                <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+                <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+            </div>
+            <div class="songInfo">
+                <img src="playing.gif" width=42px id="gif" alt=""> <span id="masterSongName"></span>
+            </div>
+        </div>
+
+    <script src="https://kit.fontawesome.com/506adf8f15.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>-->
+</body>
+</html>
